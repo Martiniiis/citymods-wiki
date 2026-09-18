@@ -457,4 +457,4 @@ Weitere Informationen findest du in den anderen Bereichen der CityShops-Wiki:
 
 ---
 
-[← Zurück zu CityShops](cityshops.md)
+[← Kaufen & Verkaufen](cityshops-kaufen-verkaufen.md) | [Weiter: Spendenschilder →](cityshops-spendenschilder.md)
