@@ -27,7 +27,7 @@ Verwalte Unternehmen, Mitarbeiter, Firmenkonten und mehrere Verkaufsstellen.
 ### 💰 [Kaufen & Verkaufen](cityshops-kaufen-verkaufen.md)
 Informationen zum Kaufen und Verkaufen von Waren, Geldfluss und automatisiertem Warenbestand.
 
-### 📊 [Statistiken & Bewertungen](cityshops-statistiken&bewertungen.md)
+### 📊 [Statistiken & Bewertungen](cityshops-statistiken-bewertungen.md)
 Übersicht über Verkaufsstatistiken, Bewertungen und weitere Auswertungen deiner Shops.
 
 ### 💻 Business OS
