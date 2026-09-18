@@ -949,7 +949,7 @@ https://www.curseforge.com/minecraft/mc-mods/cityshops
 
 ### 💬 CityMods Discord
 
-👉 **[Discord beitreten & Support erhalten]()*https://discord.gg/PVm9HchMRc*
+👉 **[Discord beitreten & Support erhalten](https://discord.gg/PVm9HchMRc)**
 
 ---
 
