@@ -252,4 +252,4 @@ Weitere Informationen findest du in den anderen Bereichen der CityShops-Wiki:
 
 ---
 
-[← Zurück zu CityShops](cityshops.md)
+[← Statistiken & Bewertungen](cityshops-statistiken-bewertungen.md) | Weiter: Business OS →
