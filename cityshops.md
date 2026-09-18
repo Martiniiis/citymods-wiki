@@ -33,7 +33,7 @@ Informationen zum Kaufen und Verkaufen von Waren, Geldfluss und automatisiertem 
 ### ❤️ [Spendenschilder](cityshops-spendenschilder.md)
 Erstelle Spendenschilder, über die Spieler Geld an Shops oder Unternehmen spenden können.
 
-### 💻 Business OS
+### 💻 [Business OS](cityshops-business-os.md)
 Informationen und Anleitung zum CityShops Business OS.
 
 ### ⌨️ Befehle
