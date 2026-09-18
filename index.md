@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css">
+
 # CityMods Wiki
 
 Willkommen in der offiziellen Dokumentation der CityMods für Minecraft.
