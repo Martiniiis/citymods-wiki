@@ -546,4 +546,4 @@ Im nächsten Bereich findest du Antworten auf häufig auftretende Fragen und Pro
 
 ---
 
-[← Befehle](cityshops-befehle.html) | [Weiter: Häufige Fragen →](cityshops-haeufige-fragen.html)
+[← Befehle](cityshops-befehle.md) | [Weiter: Häufige Fragen →](cityshops-haeufige-fragen.md)
