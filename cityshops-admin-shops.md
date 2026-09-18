@@ -454,4 +454,4 @@ Weitere Funktionen findest du in den anderen Bereichen der CityShops-Wiki:
 
 ---
 
-[← Zurück zu CityShops](cityshops.md)
+[← Shop erstellen](cityshops-shop-erstellen.md) | [Weiter: Unternehmen & Filialen →](cityshops-unternehmen-filialen.md)
