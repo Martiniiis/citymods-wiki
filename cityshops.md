@@ -21,8 +21,8 @@ Anleitung zum Erstellen und Einrichten eines eigenen Shops.
 ### 🏪 [Admin-Shops](cityshops-admin-shops.md)
 Erstellen und Verwalten von Admin-Verkaufs- und Ankaufsshops mit MineBank-Staatskasse.
 
-### 🏢 Unternehmen & Filialen
-Verwalte Unternehmen, Mitarbeiter und mehrere Verkaufsstellen.
+### 🏢 [Unternehmen & Filialen](cityshops-unternehmen-filialen.md)
+Verwalte Unternehmen, Mitarbeiter, Firmenkonten und mehrere Verkaufsstellen.
 
 ### 💰 Kaufen & Verkaufen
 Informationen zum Kauf und Verkauf von Waren.
