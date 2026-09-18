@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="style.css">
+
 <img src="cityshops.png" alt="CityShops" class="wiki-banner">
 
 # 🛒 CityShops
