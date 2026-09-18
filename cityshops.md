@@ -18,8 +18,8 @@ Installation und Voraussetzungen von CityShops.
 ### 🛒 [Shop erstellen](cityshops-shop-erstellen.md)
 Anleitung zum Erstellen und Einrichten eines eigenen Shops.
 
-### 🏪 Admin-Shops
-Erstellen und Verwalten von Shops mit unbegrenztem Warenbestand.
+### 🏪 [Admin-Shops](cityshops-admin-shops.md)
+Erstellen und Verwalten von Admin-Verkaufs- und Ankaufsshops mit MineBank-Staatskasse.
 
 ### 🏢 Unternehmen & Filialen
 Verwalte Unternehmen, Mitarbeiter und mehrere Verkaufsstellen.
