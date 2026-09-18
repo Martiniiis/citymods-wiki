@@ -30,6 +30,9 @@ Informationen zum Kaufen und Verkaufen von Waren, Geldfluss und automatisiertem 
 ### 📊 [Statistiken & Bewertungen](cityshops-statistiken-bewertungen.md)
 Übersicht über Verkaufsstatistiken, Bewertungen und weitere Auswertungen deiner Shops.
 
+### ❤️ [Spendenschilder](cityshops-spendenschilder.md)
+Erstelle Spendenschilder, über die Spieler Geld an Shops oder Unternehmen spenden können.
+
 ### 💻 Business OS
 Informationen und Anleitung zum CityShops Business OS.
 
