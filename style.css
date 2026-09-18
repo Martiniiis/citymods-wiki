@@ -140,6 +140,40 @@ body {
   border-color: var(--border);
 }
 
+/* ========================================
+   Tabellen - Dark Theme Fix
+   ======================================== */
+
+.markdown-body table {
+  background: #101820;
+  border-collapse: collapse;
+}
+
+.markdown-body table tr {
+  background: #101820 !important;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background: #151f29 !important;
+}
+
+.markdown-body table th {
+  background: #172431 !important;
+  color: #00e0ff !important;
+  font-weight: 700;
+}
+
+.markdown-body table td {
+  background: transparent !important;
+  color: #e8f0f7 !important;
+}
+
+.markdown-body table th,
+.markdown-body table td {
+  border: 1px solid #263746 !important;
+  padding: 8px 14px;
+}
+
 /* Mobile */
 
 @media (max-width: 700px) {
