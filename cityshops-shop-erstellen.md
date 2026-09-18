@@ -402,4 +402,4 @@ Weitere Funktionen von CityShops werden in eigenen Wiki-Bereichen erklärt:
 
 ---
 
-[← Zurück zu CityShops](cityshops.md)
+[← Installation](cityshops-installation.md) | [Weiter: Admin-Shops →](cityshops-admin-shops.md)
