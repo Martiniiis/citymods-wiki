@@ -137,11 +137,11 @@ Sollte Minecraft oder der Server nach der Installation nicht starten, überprüf
 - Sind CityShops und MineBank auf **Server und Client** vorhanden?
 - Sind die installierten Versionen miteinander kompatibel?
 - Gibt es im Server-Log oder Client-Log eine Fehlermeldung zu CityShops oder MineBank?
-
+  
 ---
 
-## 📚 Weitere Dokumentation
+## 🖥️ Weitere Dokumentation
 
 Nach erfolgreicher Installation kannst du mit der Einrichtung deines ersten CityShops beginnen.
 
-[← Zurück zu CityShops](cityshops.md)
+[← Zurück zu CityShops](cityshops.md) | [Weiter: Shop erstellen →](cityshops-shop-erstellen.md)
