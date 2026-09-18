@@ -13,7 +13,7 @@ Mit CityShops können Spieler eigene Shops betreiben, Waren kaufen und verkaufen
 ### 🚀 [Installation](cityshops-installation.md)
 Installation und Voraussetzungen von CityShops.
 
-### 🛒 Shop erstellen
+### 🛒 [Shop erstellen](cityshops-shop-erstellen.md)
 Anleitung zum Erstellen und Einrichten eines eigenen Shops.
 
 ### 🏪 Admin-Shops
