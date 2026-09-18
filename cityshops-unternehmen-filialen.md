@@ -445,4 +445,4 @@ Weitere Funktionen findest du in den anderen Bereichen der CityShops-Wiki:
 
 ---
 
-[← Zurück zu CityShops](cityshops.md)
+[← Admin-Shops](cityshops-admin-shops.md) | [Weiter: Kaufen & Verkaufen →](cityshops-kaufen-verkaufen.md)
