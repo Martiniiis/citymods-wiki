@@ -24,8 +24,8 @@ Erstellen und Verwalten von Admin-Verkaufs- und Ankaufsshops mit MineBank-Staats
 ### 🏢 [Unternehmen & Filialen](cityshops-unternehmen-filialen.md)
 Verwalte Unternehmen, Mitarbeiter, Firmenkonten und mehrere Verkaufsstellen.
 
-### 💰 Kaufen & Verkaufen
-Informationen zum Kauf und Verkauf von Waren.
+### 💰 [Kaufen & Verkaufen](cityshops-kaufen-verkaufen.md)
+Informationen zum Kaufen und Verkaufen von Waren, Geldfluss und automatisiertem Warenbestand.
 
 ### 📊 Statistiken & Bewertungen
 Übersicht über Verkaufsstatistiken und Bewertungen von Shops.
