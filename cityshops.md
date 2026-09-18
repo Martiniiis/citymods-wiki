@@ -39,8 +39,8 @@ Informationen und Anleitung zum CityShops Business OS.
 ### ⌨️ [Befehle](cityshops-befehle.md)
 Übersicht über die verfügbaren CityShops-Befehle.
 
-### 🔐 Berechtigungen
-Informationen zu Berechtigungen und administrativen Funktionen.
+### 🔐 [Berechtigungen](cityshops-berechtigungen.md)
+Informationen zu Rollen und Zugriffsrechten.
 
 ### ❓ Häufige Fragen
 Lösungen für häufige Fragen und Probleme.
