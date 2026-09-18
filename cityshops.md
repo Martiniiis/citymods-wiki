@@ -36,7 +36,7 @@ Erstelle Spendenschilder, über die Spieler Geld an Shops oder Unternehmen spend
 ### 💻 [Business OS](cityshops-business-os.md)
 Informationen und Anleitung zum CityShops Business OS.
 
-### ⌨️ Befehle
+### ⌨️ [Befehle](cityshops-befehle.md)
 Übersicht über die verfügbaren CityShops-Befehle.
 
 ### 🔐 Berechtigungen
