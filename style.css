@@ -1,0 +1,154 @@
+/* ========================================
+   CityMods Wiki - Dark Theme
+   ======================================== */
+
+:root {
+  --bg: #0b1117;
+  --bg-secondary: #101820;
+  --card: #151f29;
+  --border: #263746;
+
+  --text: #e8f0f7;
+  --text-muted: #9babb8;
+
+  --blue: #2e8bff;
+  --cyan: #00e0ff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top, #142331 0%, #0b1117 45%, #070b0f 100%);
+  color: var(--text);
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Hauptbereich */
+
+.container-lg,
+.markdown-body {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.markdown-body {
+  background: rgba(16, 24, 32, 0.92);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 40px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.35);
+  color: var(--text);
+}
+
+/* Überschriften */
+
+.markdown-body h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  border-bottom: 2px solid var(--blue);
+  padding-bottom: 12px;
+}
+
+.markdown-body h2 {
+  color: var(--cyan);
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 8px;
+  margin-top: 35px;
+}
+
+.markdown-body h3 {
+  color: #ffffff;
+  margin-top: 28px;
+}
+
+/* Texte */
+
+.markdown-body p,
+.markdown-body li {
+  color: var(--text);
+}
+
+.markdown-body strong {
+  color: #ffffff;
+}
+
+/* Links */
+
+.markdown-body a {
+  color: var(--cyan);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.markdown-body a:hover {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+/* Trennlinien */
+
+.markdown-body hr {
+  height: 1px;
+  border: 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--blue),
+    var(--cyan),
+    transparent
+  );
+  margin: 35px 0;
+}
+
+/* Code */
+
+.markdown-body code {
+  background: #071018;
+  color: var(--cyan);
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  padding: 2px 6px;
+}
+
+.markdown-body pre {
+  background: #071018;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 18px;
+}
+
+/* Tabellen */
+
+.markdown-body table {
+  background: var(--bg-secondary);
+}
+
+.markdown-body table th {
+  background: #172431;
+  color: var(--cyan);
+}
+
+.markdown-body table td,
+.markdown-body table th {
+  border-color: var(--border);
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  .markdown-body {
+    margin: 15px;
+    padding: 22px;
+  }
+
+  .markdown-body h1 {
+    font-size: 2rem;
+  }
+}
