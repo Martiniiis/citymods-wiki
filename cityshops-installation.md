@@ -1,5 +1,7 @@
 <link rel="stylesheet" href="style.css">
 
+<img src="instalieren.png" alt="CityShops – Installation" class="wiki-banner">
+
 # 🚀 CityShops – Installation
 
 Auf dieser Seite erfährst du, wie du **[CityShops](https://www.curseforge.com/minecraft/mc-mods/cityshops)** auf deinem Minecraft-Server und Client installierst.
