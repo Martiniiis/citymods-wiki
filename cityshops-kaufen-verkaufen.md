@@ -444,4 +444,4 @@ Weitere Informationen findest du in den anderen Bereichen der Wiki:
 
 ---
 
-[← Zurück zu CityShops](cityshops.md)
+[← Unternehmen & Filialen](cityshops-unternehmen-filialen.md) | [Weiter: Statistiken & Bewertungen →](cityshops-statistiken-bewertungen.md)
