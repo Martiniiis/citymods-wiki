@@ -8,7 +8,7 @@ Hier findest du Anleitungen, Informationen und Hilfestellungen zu den verschiede
 
 ## Mods
 
-### 🛒 CityShops
+### 🛒 [CityShops](cityshops.md)
 Ein umfangreiches Shop- und Wirtschaftssystem für Minecraft-Server.
 
 ### 🏠 CityRegion
