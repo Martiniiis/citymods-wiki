@@ -393,4 +393,4 @@ Weitere Informationen findest du in den anderen Bereichen der CityShops-Wiki:
 
 
 
-[← Business OS](cityshops-business-os.md) | [Weiter: Berechtigungen →](cityshops-berechtigungen.md)
+[← Spendenschilder](cityshops-spendenschilder.md) | [Weiter: Befehle →](cityshops-befehle.md)
