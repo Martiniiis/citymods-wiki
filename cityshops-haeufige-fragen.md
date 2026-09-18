@@ -855,7 +855,7 @@ Dann kannst du unserem **CityMods Discord** beitreten und dort nach Hilfe fragen
 
 ### 💬 Support & Community
 
-👉 **[CityMods Discord – Jetzt beitreten](DEIN-DISCORD-LINK-HIER-EINFÜGEN)**
+👉 **[CityMods Discord – Jetzt beitreten]((https://discord.gg/PVm9HchMRc))**
 
 Auf unserem Discord kannst du:
 
