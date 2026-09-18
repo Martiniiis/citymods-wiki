@@ -12,34 +12,34 @@ Mit CityShops können Spieler eigene Shops betreiben, Waren kaufen und verkaufen
 
 ## 📖 Dokumentation
 
-### 🚀 [Installation](cityshops-installation.md)
+### 🚀 [Installation](cityshops-installation.html)
 Installation und Voraussetzungen von CityShops.
 
-### 🛒 [Shop erstellen](cityshops-shop-erstellen.md)
+### 🛒 [Shop erstellen](cityshops-shop-erstellen.html)
 Anleitung zum Erstellen und Einrichten eines eigenen Shops.
 
-### 🏪 [Admin-Shops](cityshops-admin-shops.md)
+### 🏪 [Admin-Shops](cityshops-admin-shops.html)
 Erstellen und Verwalten von Admin-Verkaufs- und Ankaufsshops mit MineBank-Staatskasse.
 
-### 🏢 [Unternehmen & Filialen](cityshops-unternehmen-filialen.md)
+### 🏢 [Unternehmen & Filialen](cityshops-unternehmen-filialen.html)
 Verwalte Unternehmen, Mitarbeiter, Firmenkonten und mehrere Verkaufsstellen.
 
-### 💰 [Kaufen & Verkaufen](cityshops-kaufen-verkaufen.md)
+### 💰 [Kaufen & Verkaufen](cityshops-kaufen-verkaufen.html)
 Informationen zum Kaufen und Verkaufen von Waren, Geldfluss und automatisiertem Warenbestand.
 
-### 📊 [Statistiken & Bewertungen](cityshops-statistiken-bewertungen.md)
+### 📊 [Statistiken & Bewertungen](cityshops-statistiken-bewertungen.html)
 Übersicht über Verkaufsstatistiken, Bewertungen und weitere Auswertungen deiner Shops.
 
-### ❤️ [Spendenschilder](cityshops-spendenschilder.md)
+### ❤️ [Spendenschilder](cityshops-spendenschilder.html)
 Erstelle Spendenschilder, über die Spieler Geld an Shops oder Unternehmen spenden können.
 
-### 💻 [Business OS](cityshops-business-os.md)
+### 💻 [Business OS](cityshops-business-os.html)
 Informationen und Anleitung zum CityShops Business OS.
 
-### ⌨️ [Befehle](cityshops-befehle.md)
+### ⌨️ [Befehle](cityshops-befehle.html)
 Übersicht über die verfügbaren CityShops-Befehle.
 
-### 🔐 [Berechtigungen](cityshops-berechtigungen.md)
+### 🔐 [Berechtigungen](cityshops-berechtigungen.html)
 Informationen zu Rollen und Zugriffsrechten.
 
 ### ❓ Häufige Fragen
