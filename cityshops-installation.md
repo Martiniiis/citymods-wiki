@@ -2,7 +2,7 @@
 
 # 🚀 CityShops – Installation
 
-Auf dieser Seite erfährst du, wie du **CityShops**  https://www.curseforge.com/minecraft/mc-mods/cityshops auf deinem Minecraft-Server und Client installierst.
+Auf dieser Seite erfährst du, wie du **[CityShops](https://www.curseforge.com/minecraft/mc-mods/cityshops)** auf deinem Minecraft-Server und Client installierst.
 
 ---
 
@@ -12,7 +12,7 @@ CityShops ist für folgende Minecraft-Version entwickelt:
 
 - **Minecraft:** 1.20.1
 - **Modloader:** Forge
-- **MineBank:** Erforderliche Abhängigkeit https://www.curseforge.com/minecraft/mc-mods/minebank
+- **[MineBank](https://www.curseforge.com/minecraft/mc-mods/minebank):** Erforderliche Abhängigkeit
 
 > ⚠️ **Wichtig:** CityShops muss sowohl auf dem **Minecraft-Server** als auch auf den **Clients der Spieler** installiert sein.
 
@@ -20,7 +20,7 @@ CityShops ist für folgende Minecraft-Version entwickelt:
 
 ## 🏦 MineBank
 
-CityShops benötigt **MineBank** als Abhängigkeit.
+CityShops benötigt **[MineBank](https://www.curseforge.com/minecraft/mc-mods/minebank)** als Abhängigkeit.
 
 Ohne MineBank kann CityShops nicht ordnungsgemäß geladen und verwendet werden.
 
@@ -38,7 +38,7 @@ Stoppe deinen Minecraft-Server vollständig, bevor du CityShops installierst ode
 
 ### 2. CityShops herunterladen
 
-Lade die gewünschte Version von **CityShops** herunter.
+Lade die gewünschte Version von **[CityShops](https://www.curseforge.com/minecraft/mc-mods/cityshops)** herunter.
 
 ### 3. CityShops installieren
 
@@ -50,7 +50,7 @@ Beispiel:
 
 ### 4. MineBank installieren
 
-Lade die benötigte Version von **MineBank** herunter und kopiere die JAR-Datei ebenfalls in den `mods`-Ordner des Servers.
+Lade die benötigte Version von **[MineBank](https://www.curseforge.com/minecraft/mc-mods/minebank)** herunter und kopiere die JAR-Datei ebenfalls in den `mods`-Ordner des Servers.
 
 Im `mods`-Ordner müssen anschließend mindestens folgende Mods vorhanden sein:
 
