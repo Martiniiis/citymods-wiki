@@ -42,8 +42,8 @@ Informationen und Anleitung zum CityShops Business OS.
 ### 🔐 [Berechtigungen](cityshops-berechtigungen.md)
 Informationen zu Rollen und Zugriffsrechten.
 
-### ❓ Häufige Fragen
-Lösungen für häufige Fragen und Probleme.
+### ❓ [Häufige Fragen](cityshops-haeufige-fragen.md)
+Antworten auf häufige Fragen und Probleme.
 
 ---
 
