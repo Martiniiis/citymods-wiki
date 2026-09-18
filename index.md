@@ -2,6 +2,8 @@
 
 # CityMods Wiki
 
+# CityMods Wiki
+
 Willkommen in der offiziellen Dokumentation der CityMods für Minecraft.
 
 Hier findest du Anleitungen, Informationen und Hilfestellungen zu den verschiedenen CityMods.
