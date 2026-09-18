@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="style.css">
 
+<img src="citymods-banner.png" alt="CityMods Wiki" class="wiki-banner">
+
+# CityMods Wiki
+
 # CityMods Wiki
 
 # CityMods Wiki
