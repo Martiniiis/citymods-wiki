@@ -194,6 +194,61 @@ body {
   overflow: hidden;
 }
 
+/* ========================================
+   Codeblöcke - Dark Theme
+   ======================================== */
+
+.markdown-body pre {
+  background: #0b141d !important;
+  border: 1px solid #263746 !important;
+  border-left: 4px solid #00e0ff !important;
+  border-radius: 8px !important;
+  padding: 16px !important;
+  overflow-x: auto;
+  box-shadow: 0 0 12px rgba(0, 224, 255, 0.08);
+}
+
+.markdown-body pre code {
+  background: transparent !important;
+  color: #e8f0f7 !important;
+  font-size: 14px;
+  line-height: 1.6;
+  padding: 0 !important;
+  border: none !important;
+}
+
+/* Einzelne Code-Begriffe im Text */
+.markdown-body code {
+  background: #172431 !important;
+  color: #00e0ff !important;
+  border: 1px solid #263746;
+  border-radius: 5px;
+  padding: 2px 6px;
+}
+
+/* Syntax Highlighting innerhalb von Codeblöcken */
+.markdown-body .highlight {
+  background: #0b141d !important;
+}
+
+.markdown-body .highlight pre {
+  background: #0b141d !important;
+}
+
+.markdown-body .highlight code {
+  color: #e8f0f7 !important;
+}
+
+/* GitHub Pages / Rouge Syntax Highlighting */
+.markdown-body .highlight .p,
+.markdown-body .highlight .n,
+.markdown-body .highlight .s,
+.markdown-body .highlight .s1,
+.markdown-body .highlight .s2,
+.markdown-body .highlight .mi,
+.markdown-body .highlight .mf {
+  color: #e8f0f7 !important;
+}
 
 /* Mobile */
 
