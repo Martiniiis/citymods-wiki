@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css">
+
 # 🛒 CityShops
 
 **CityShops** ist ein umfangreiches Shop- und Wirtschaftssystem für Minecraft-Server.
