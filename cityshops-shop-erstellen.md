@@ -1,5 +1,7 @@
 <link rel="stylesheet" href="style.css">
 
+<img src="shoperstellen.png" alt="CityShops – Shop erstellen" class="wiki-banner">
+
 # 🛒 CityShops – Shop erstellen
 
 Mit **[CityShops](https://www.curseforge.com/minecraft/mc-mods/cityshops)** kannst du direkt in deiner Minecraft-Welt eigene Verkaufs- und Ankaufsshops erstellen.
