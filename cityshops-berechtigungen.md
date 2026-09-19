@@ -8,6 +8,8 @@ CityShops unterscheidet zwischen verschiedenen Rollen und Zugriffsrechten.
 
 Dadurch können normale Spieler ihre eigenen Shops verwalten, Mitarbeiter gemeinsam in einem Unternehmen arbeiten und Firmenbesitzer wichtige Unternehmensfunktionen kontrollieren.
 
+Seit **CityShops 2.3.0** können Mitarbeiter zusätzlich über feste Mitarbeiterrollen und einzelne Berechtigungen gezielt für bestimmte Unternehmensaufgaben freigeschaltet werden.
+
 Bestimmte Verwaltungsfunktionen sind ausschließlich für **Server-Administratoren beziehungsweise OP-Spieler** vorgesehen.
 
 ---
@@ -24,6 +26,8 @@ In CityShops sind vor allem folgende Rollen wichtig:
 | 🛡️ Admin / OP | Besitzt Zugriff auf administrative CityShops-Funktionen |
 
 > Ein Spieler kann gleichzeitig Besitzer seiner persönlichen Shops und Mitarbeiter eines Unternehmens sein.
+
+Innerhalb eines Unternehmens können Mitarbeiter seit CityShops 2.3.0 zusätzlich eine eigene **Mitarbeiterrolle** erhalten.
 
 ---
 
@@ -93,11 +97,20 @@ Wird ein Spieler zu einem Unternehmen hinzugefügt, erhält er Zugriff auf die f
 
 Ein Mitarbeiter kann dadurch gemeinsam mit anderen Spielern innerhalb eines Unternehmens arbeiten.
 
+Seit **CityShops 2.3.0** können die Möglichkeiten eines Mitarbeiters genauer über:
+
+- Mitarbeiterrollen
+- einzelne Mitarbeiterrechte
+
+festgelegt werden.
+
+Dadurch muss nicht mehr jeder Mitarbeiter automatisch dieselben Verwaltungsrechte besitzen.
+
 ---
 
 # 🏢 Gemeinsame Unternehmensshops
 
-Unternehmensmitglieder können mit den Shops ihres Unternehmens arbeiten.
+Unternehmensmitglieder können mit den Shops ihres Unternehmens arbeiten, sofern sie die dafür benötigten Rechte besitzen.
 
 Neue Shops von Unternehmensmitgliedern können dem Unternehmen zugeordnet werden.
 
@@ -113,9 +126,19 @@ dem Unternehmen zugewiesen werden.
 
 # 💻 Business OS für Mitarbeiter
 
-Mitarbeiter können das **Business OS** beziehungsweise die Unternehmensbereiche des Shop-PCs verwenden, soweit die jeweilige Funktion für ihre Rolle vorgesehen ist.
+Mitarbeiter können das **Business OS** beziehungsweise die Unternehmensbereiche des Shop-PCs verwenden, soweit die jeweilige Funktion für ihre Rolle beziehungsweise ihre Berechtigungen vorgesehen ist.
 
 Dadurch können Unternehmensinformationen zentral eingesehen und gemeinsame Geschäftsbereiche verwendet werden.
+
+Seit CityShops 2.3.0 enthält das Business OS zusätzlich den Bereich **„Verwaltung“**.
+
+Dort können abhängig von den vorhandenen Rechten unter anderem folgende Bereiche verwendet beziehungsweise eingesehen werden:
+
+- Abteilungen
+- feste Shop-IDs
+- interne Shop-Namen
+- Shop-Vorlagen
+- Mitarbeiteraktivitäten
 
 ---
 
@@ -149,7 +172,14 @@ Dazu gehören insbesondere:
 - vorhandene Shops dem Unternehmen zuweisen
 - Firmenkonto verwalten
 - Geld vom Firmenkonto auszahlen
+- Mitarbeiterrollen verwalten
+- einzelne Mitarbeiterrechte verwalten
+- Abteilungen verwalten
+- Shop-Vorlagen verwenden
+- Aktivitätsprotokoll einsehen
 - Unternehmensbereiche im Business OS verwalten
+
+> 💡 Der Firmenbesitzer besitzt automatisch sämtliche Unternehmensrechte und benötigt keine zusätzliche Mitarbeiterrolle.
 
 ---
 
@@ -206,6 +236,310 @@ umbenennen.
 ```text
 /company rename City Markt
 ```
+
+---
+
+# 👥 Mitarbeiterrollen
+
+Seit **CityShops 2.3.0** können Mitarbeitern feste Rollen innerhalb des Unternehmens zugewiesen werden.
+
+Dadurch können verschiedene Aufgabenbereiche innerhalb einer Firma übersichtlicher organisiert werden.
+
+Folgende Rollen stehen zur Verfügung:
+
+| Rolle | Rollenname |
+| --- | --- |
+| Geschäftsführer | `geschaeftsfuehrer` |
+| Filialleiter | `filialleiter` |
+| Lagerist | `lagerist` |
+| Einkäufer | `einkaeufer` |
+| Verkäufer | `verkaeufer` |
+| Buchhalter | `buchhalter` |
+| Prüfer | `pruefer` |
+
+---
+
+## 🏷️ Mitarbeiterrolle vergeben
+
+Eine Rolle wird mit folgendem Befehl vergeben:
+
+```text
+/company role set SPIELER filialleiter
+```
+
+### Beispiel
+
+```text
+/company role set Spielername filialleiter
+```
+
+Damit erhält der Mitarbeiter die entsprechende Rolle innerhalb des Unternehmens.
+
+> 💡 Der Firmenbesitzer selbst benötigt keine Rolle, da er automatisch sämtliche Rechte besitzt.
+
+---
+
+# 🔑 Einzelne Mitarbeiterrechte
+
+Zusätzlich zu den Mitarbeiterrollen unterstützt CityShops 2.3.0 **einzelne Berechtigungen**.
+
+Damit kann genauer festgelegt werden, auf welche Unternehmensfunktionen ein Mitarbeiter zugreifen darf.
+
+Folgende Rechte stehen zur Verfügung:
+
+| Recht | Funktion |
+| --- | --- |
+| `shops` | Shops verwalten |
+| `prices` | Preise bearbeiten |
+| `stock` | Warenbestand verwalten |
+| `templates` | Shop-Vorlagen speichern und anwenden |
+| `departments` | Abteilungen verwalten |
+| `statistics` | Firmenstatistiken ansehen |
+| `activity` | Aktivitätsprotokoll ansehen |
+
+---
+
+## ✅ Einzelnes Recht vergeben
+
+Mit:
+
+```text
+/company permission set SPIELER templates true
+```
+
+kann einem Mitarbeiter ein bestimmtes Recht gegeben werden.
+
+### Beispiel
+
+```text
+/company permission set Spielername templates true
+```
+
+Damit erhält `Spielername` das Recht:
+
+```text
+templates
+```
+
+und kann die dafür vorgesehenen Funktionen verwenden.
+
+---
+
+## ❌ Einzelnes Recht entziehen
+
+Ein Recht kann wieder entzogen werden mit:
+
+```text
+/company permission set SPIELER templates false
+```
+
+### Beispiel
+
+```text
+/company permission set Spielername templates false
+```
+
+Danach besitzt der Mitarbeiter dieses einzelne Recht nicht mehr.
+
+---
+
+# 🧩 Rollen und einzelne Rechte
+
+Mitarbeiterrollen und einzelne Berechtigungen ermöglichen eine genauere Aufgabenverteilung innerhalb eines Unternehmens.
+
+Beispielsweise kann ein Mitarbeiter eine bestimmte Rolle besitzen und zusätzlich gezielt für einzelne Funktionen freigeschaltet werden.
+
+Dadurch können Unternehmen ihre Mitarbeiter passend zu ihren Aufgaben einsetzen, ohne jedem Mitarbeiter vollständigen Zugriff auf sämtliche Verwaltungsfunktionen zu geben.
+
+Der Firmenbesitzer besitzt unabhängig davon automatisch alle Unternehmensrechte.
+
+---
+
+# 🛒 Shop-Verwaltung
+
+Das Recht:
+
+```text
+shops
+```
+
+betrifft die Verwaltung von Unternehmensshops.
+
+Damit kann der Zugriff auf die Shopverwaltung gezielt gesteuert werden.
+
+---
+
+# 💵 Preise bearbeiten
+
+Das Recht:
+
+```text
+prices
+```
+
+betrifft die Bearbeitung von Shoppreisen.
+
+Dadurch kann ein Mitarbeiter beispielsweise Zugriff auf die Preisverwaltung erhalten, ohne automatisch sämtliche anderen Unternehmensfunktionen verwenden zu können.
+
+---
+
+# 📦 Warenbestand verwalten
+
+Das Recht:
+
+```text
+stock
+```
+
+betrifft die Verwaltung des Warenbestands.
+
+Damit kann der Zugriff auf die Bestandsverwaltung getrennt von anderen Unternehmensrechten gesteuert werden.
+
+---
+
+# 📋 Shop-Vorlagen
+
+Das Recht:
+
+```text
+templates
+```
+
+erlaubt die Verwendung der Shop-Vorlagen.
+
+Shop-Vorlagen können mit:
+
+```text
+/company template save Standard16
+```
+
+gespeichert und mit:
+
+```text
+/company template apply Standard16
+```
+
+auf einen anderen Shop derselben Firma angewendet werden.
+
+Eine Vorlage speichert:
+
+- Ankauf oder Verkauf
+- Menge pro Klick
+- Preis
+- Abteilung
+
+> ⚠️ Das Item des Zielshops wird durch eine Shop-Vorlage nicht verändert.
+
+---
+
+# 🗂️ Abteilungen
+
+Das Recht:
+
+```text
+departments
+```
+
+betrifft die Verwaltung der Unternehmensabteilungen.
+
+Eine Abteilung kann beispielsweise mit:
+
+```text
+/company department create Getränke
+```
+
+erstellt werden.
+
+Mit:
+
+```text
+/company department assign Getränke
+```
+
+kann anschließend ein Shop der entsprechenden Abteilung zugeordnet werden.
+
+---
+
+# 📊 Firmenstatistiken
+
+Das Recht:
+
+```text
+statistics
+```
+
+erlaubt den Zugriff auf die dafür vorgesehenen Firmenstatistiken.
+
+Dadurch können beispielsweise Mitarbeiter mit entsprechenden Aufgaben Zugriff auf wirtschaftliche Auswertungen erhalten.
+
+---
+
+# 📜 Aktivitätsprotokoll
+
+Das Recht:
+
+```text
+activity
+```
+
+erlaubt den Zugriff auf das Aktivitätsprotokoll des Unternehmens.
+
+Das Protokoll kann mit:
+
+```text
+/company activity
+```
+
+aufgerufen werden.
+
+Es ist außerdem im Business OS unter **„Verwaltung“** verfügbar.
+
+Dort können unter anderem folgende Aktionen nachvollzogen werden:
+
+- Shop erstellt
+- Shop gelöscht
+- internen Shop-Namen geändert
+- Abteilung zugewiesen
+- Vorlage gespeichert
+- Vorlage angewendet
+- Mitarbeiterrolle geändert
+- Mitarbeiterrecht geändert
+
+Das Aktivitätsprotokoll enthält Informationen über **Ersteller, Zeitpunkt und Aktion**.
+
+---
+
+# 🆔 Feste Shop-IDs
+
+Firmenshops erhalten seit CityShops 2.3.0 automatisch eine eindeutige Shop-ID.
+
+Beispiele:
+
+```text
+SHOP-0001
+SHOP-0002
+SHOP-0003
+```
+
+Die Shop-ID wird automatisch vergeben und benötigt kein eigenes Mitarbeiterrecht zur Vergabe.
+
+Sie bleibt erhalten, wenn beispielsweise der Name, Preis, die Abteilung oder Filiale eines Shops geändert wird.
+
+---
+
+# 🏷️ Interne Shop-Namen
+
+Firmenshops können zusätzlich einen internen Shop-Namen erhalten.
+
+Dafür wird verwendet:
+
+```text
+/company shop internalname Getränke-01
+```
+
+Anschließend wird der gewünschte Shop angeklickt.
+
+Der interne Name dient der besseren Verwaltung innerhalb des Unternehmens und kann beispielsweise im Business OS verwendet werden.
 
 ---
 
@@ -276,8 +610,14 @@ Dadurch können normale Mitarbeiter nicht einfach Firmenvermögen vom Konto ausz
 | Bei Shops verkaufen | ✅ | ✅ | ✅ | ✅ |
 | Shops bewerten | ✅ | ✅ | ✅ | ✅ |
 | Eigene Statistiken ansehen | ✅ | ✅ | ✅ | ✅ |
-| Unternehmensfunktionen verwenden | ❌ | ✅ | ✅ | ✅ |
-| Unternehmensshops verwenden | ❌ | ✅ | ✅ | ✅ |
+| Unternehmensfunktionen verwenden | ❌ | abhängig von Rechten | ✅ | ✅ |
+| Unternehmensshops verwalten | ❌ | abhängig von `shops` | ✅ | ✅ |
+| Shoppreise bearbeiten | ❌ | abhängig von `prices` | ✅ | ✅ |
+| Warenbestand verwalten | ❌ | abhängig von `stock` | ✅ | ✅ |
+| Shop-Vorlagen verwenden | ❌ | abhängig von `templates` | ✅ | ✅ |
+| Abteilungen verwalten | ❌ | abhängig von `departments` | ✅ | ✅ |
+| Firmenstatistiken ansehen | ❌ | abhängig von `statistics` | ✅ | ✅ |
+| Aktivitätsprotokoll ansehen | ❌ | abhängig von `activity` | ✅ | ✅ |
 | Unternehmen umbenennen | ❌ | ❌ | ✅ | ✅ |
 | Mitarbeiter hinzufügen | ❌ | ❌ | ✅ | ✅ |
 | Mitarbeiter entfernen | ❌ | ❌ | ✅ | ✅ |
@@ -286,7 +626,7 @@ Dadurch können normale Mitarbeiter nicht einfach Firmenvermögen vom Konto ausz
 | Admin-Shops registrieren | ❌ | ❌ | ❌ | ✅ |
 | Shop-History administrativ prüfen | ❌ | ❌ | ❌ | ✅ |
 
-> Die Tabelle zeigt die Rollen innerhalb des CityShops-Systems. Serveradministratoren können darüber hinaus durch Minecraft-OP-Rechte Zugriff auf administrative Funktionen besitzen.
+> Die konkreten Unternehmensrechte eines Mitarbeiters werden durch seine Rolle und seine einzelnen Berechtigungen bestimmt. Der Firmenbesitzer besitzt automatisch sämtliche Unternehmensrechte.
 
 ---
 
@@ -434,8 +774,17 @@ Dadurch wird das Bewertungssystem eindeutig dem entsprechenden Shop zugeordnet.
 
 Die Rollenaufteilung schützt die Wirtschaft des Servers.
 
-Sie verhindert beispielsweise, dass ein normaler Mitarbeiter ohne entsprechende Rechte:
+Mit CityShops 2.3.0 können Unternehmen zusätzlich genauer bestimmen, welche Mitarbeiter bestimmte Unternehmensbereiche verwenden dürfen.
 
+Dadurch kann beispielsweise verhindert werden, dass ein Mitarbeiter ohne entsprechende Rechte:
+
+- Unternehmensshops verwaltet
+- Shoppreise verändert
+- Warenbestände verwaltet
+- Shop-Vorlagen verwendet
+- Abteilungen verändert
+- Firmenstatistiken einsehen kann
+- das Aktivitätsprotokoll einsehen kann
 - Mitarbeiter entfernt
 - die Firma umbenennt
 - Firmenvermögen auszahlt
@@ -448,31 +797,35 @@ Dadurch können mehrere Spieler gemeinsam in einem Unternehmen arbeiten, ohne da
 
 # 🏢 Beispiel
 
-Ein Unternehmen besitzt mehrere Shops und drei Mitarbeiter.
+Ein Unternehmen besitzt mehrere Shops und verschiedene Mitarbeiter.
 
-### Mitarbeiter
+### Filialleiter
 
-Die Mitarbeiter können im Unternehmen arbeiten und die für sie vorgesehenen gemeinsamen Funktionen verwenden.
-
-Sie können aber nicht einfach:
+Der Firmenbesitzer kann beispielsweise einem Mitarbeiter die Rolle:
 
 ```text
-/company remove Spielername
+/company role set Spielername filialleiter
 ```
 
-verwenden, um andere Mitarbeiter zu entfernen.
+geben.
 
-Auch:
+### Zusätzliches Recht
+
+Soll der Mitarbeiter zusätzlich Shop-Vorlagen verwenden dürfen, kann das entsprechende Recht vergeben werden:
 
 ```text
-/company withdraw 10000
+/company permission set Spielername templates true
 ```
 
-steht ihnen nicht als normale Auszahlung vom Firmenkonto zur Verfügung.
+Soll dieses Recht später wieder entfernt werden:
+
+```text
+/company permission set Spielername templates false
+```
 
 ### Firmenbesitzer
 
-Der Firmenbesitzer besitzt die erweiterten Verwaltungsrechte und kann beispielsweise:
+Der Firmenbesitzer besitzt automatisch sämtliche Unternehmensrechte und kann weiterhin beispielsweise:
 
 ```text
 /company add Spielername
@@ -504,6 +857,8 @@ Wenn eine CityShops-Funktion nicht verwendet werden kann, überprüfe zuerst:
 - Gehört der Shop zu deinem Unternehmen?
 - Bist du Mitglied des Unternehmens?
 - Bist du Firmenbesitzer?
+- Welche Mitarbeiterrolle besitzt du?
+- Besitzt du das benötigte einzelne Mitarbeiterrecht?
 - Benötigt die Funktion OP-Rechte?
 - Ist der richtige Shop ausgewählt?
 - Ist MineBank korrekt installiert?
@@ -521,6 +876,8 @@ CityShops nutzt administrative Rechte unter anderem für Funktionen, die direkte
 
 Für normale Unternehmensmitarbeiter sind OP-Rechte nicht notwendig.
 
+Die Mitarbeiterverwaltung sollte stattdessen über die vorgesehenen **Rollen und einzelnen Berechtigungen** von CityShops erfolgen.
+
 ---
 
 # 📚 Passende Wiki-Seiten
@@ -535,6 +892,7 @@ Weitere Informationen zu den einzelnen Bereichen findest du hier:
 - ❤️ **Spendenschilder**
 - 💻 **Business OS**
 - ⌨️ **Befehle**
+- 📋 **Versionen & Changelog**
 
 ---
 
