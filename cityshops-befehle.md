@@ -6,7 +6,7 @@
 
 Auf dieser Seite findest du die dokumentierten Befehle von **CityShops**.
 
-Die Befehle sind nach Bereichen sortiert, damit du schnell findest, was du für Shops, Unternehmen, Bewertungen oder Statistiken benötigst.
+Die Befehle sind nach Bereichen sortiert, damit du schnell findest, was du für Shops, Unternehmen, Bewertungen, Statistiken oder die Unternehmensverwaltung benötigst.
 
 ---
 
@@ -112,6 +112,8 @@ CityShops speichert pro Shop die letzten:
 CityShops besitzt ein eigenes Unternehmenssystem.
 
 Ein Unternehmen kann gemeinsame Shops besitzen und verwendet ein eigenes MineBank-Firmenkonto.
+
+Mit **CityShops 2.3.0** wurden die Unternehmensbefehle um zusätzliche Verwaltungsfunktionen für Shop-IDs, interne Namen, Abteilungen, Vorlagen, Mitarbeiterrollen, Rechte und Aktivitäten erweitert.
 
 ---
 
@@ -223,6 +225,88 @@ Mit diesem Befehl kann ein Mitarbeiter das Unternehmen verlassen.
 
 ---
 
+# 👥 Mitarbeiterrollen
+
+Mit **CityShops 2.3.0** können Mitarbeitern verschiedene Rollen innerhalb des Unternehmens zugewiesen werden.
+
+Verfügbare Rollen:
+
+```text
+geschaeftsfuehrer
+filialleiter
+lagerist
+einkaeufer
+verkaeufer
+buchhalter
+pruefer
+```
+
+## Rolle vergeben
+
+```text
+/company role set SPIELER filialleiter
+```
+
+### Beispiel
+
+```text
+/company role set Spielername filialleiter
+```
+
+Damit erhält der angegebene Mitarbeiter die Rolle `filialleiter`.
+
+> 💡 Der Firmenbesitzer besitzt automatisch sämtliche Rechte und benötigt keine zusätzliche Mitarbeiterrolle.
+
+---
+
+# 🔐 Einzelne Mitarbeiterrechte
+
+Neben den Rollen können mit CityShops 2.3.0 auch einzelne Mitarbeiterrechte vergeben oder entzogen werden.
+
+Verfügbare Rechte:
+
+| Recht | Funktion |
+| --- | --- |
+| `shops` | Shops verwalten |
+| `prices` | Preise bearbeiten |
+| `stock` | Warenbestand verwalten |
+| `templates` | Shop-Vorlagen speichern und anwenden |
+| `departments` | Abteilungen verwalten |
+| `statistics` | Firmenstatistiken ansehen |
+| `activity` | Aktivitätsprotokoll ansehen |
+
+## ➕ Recht vergeben
+
+```text
+/company permission set SPIELER templates true
+```
+
+### Beispiel
+
+```text
+/company permission set Spielername templates true
+```
+
+Dadurch erhält der Mitarbeiter das Recht, Shop-Vorlagen zu verwenden.
+
+---
+
+## ➖ Recht entziehen
+
+```text
+/company permission set SPIELER templates false
+```
+
+### Beispiel
+
+```text
+/company permission set Spielername templates false
+```
+
+Dadurch wird dem Mitarbeiter das entsprechende Recht wieder entzogen.
+
+---
+
 # 🛒 Persönlichen Shop der Firma zuweisen
 
 ```text
@@ -234,6 +318,164 @@ Mit diesem Befehl kannst du einen bereits vorhandenen eigenen Shop manuell deine
 Nach dem Befehl wählst du den entsprechenden Shop aus.
 
 Das ist besonders praktisch für Shops, die bereits vor der Unternehmenszuordnung existiert haben.
+
+---
+
+# 🆔 Feste Shop-IDs
+
+Seit **CityShops 2.3.0** erhalten Firmenshops automatisch eindeutige interne Shop-IDs.
+
+Beispiele:
+
+```text
+SHOP-0001
+SHOP-0002
+SHOP-0003
+```
+
+Für die Vergabe der Shop-ID ist **kein eigener Befehl notwendig**.
+
+Die ID wird von CityShops automatisch vergeben und bleibt auch bei Änderungen am Namen, Preis, an der Abteilung oder Filiale erhalten.
+
+---
+
+# 🏷️ Internen Shop-Namen festlegen
+
+```text
+/company shop internalname <Name>
+```
+
+Legt einen internen Namen für einen Firmenshop fest.
+
+### Beispiel
+
+```text
+/company shop internalname Getränke-01
+```
+
+Nach dem Ausführen des Befehls klickst du das gewünschte Shopschild an.
+
+Weitere Beispiele:
+
+```text
+Baumarkt-Holz-03
+Getränke-01
+Lager-Ankauf-02
+```
+
+Der interne Name dient der Verwaltung und muss nicht mit dem sichtbaren Namen des Shops übereinstimmen.
+
+---
+
+# 🗂️ Abteilungen
+
+Mit CityShops 2.3.0 können Unternehmen ihre Shops in Abteilungen organisieren.
+
+## ➕ Abteilung erstellen
+
+```text
+/company department create <Name>
+```
+
+### Beispiel
+
+```text
+/company department create Getränke
+```
+
+Erstellt eine neue Abteilung mit dem Namen `Getränke`.
+
+---
+
+## 🛒 Shop einer Abteilung zuordnen
+
+```text
+/company department assign <Name>
+```
+
+### Beispiel
+
+```text
+/company department assign Getränke
+```
+
+Nach dem Ausführen klickst du das gewünschte Shopschild an.
+
+Der Shop wird anschließend der Abteilung `Getränke` zugeordnet.
+
+---
+
+# 📋 Shop-Vorlagen
+
+Shop-Vorlagen ermöglichen es, Einstellungen eines Shops zu speichern und auf weitere Shops derselben Firma zu übertragen.
+
+Eine Vorlage speichert:
+
+- Ankauf oder Verkauf
+- Menge pro Klick
+- Preis
+- Abteilung
+
+> ⚠️ Das Item des Zielshops wird beim Anwenden einer Vorlage nicht verändert.
+
+---
+
+## 💾 Shop-Vorlage speichern
+
+```text
+/company template save <Name>
+```
+
+### Beispiel
+
+```text
+/company template save Standard16
+```
+
+Nach dem Ausführen klickst du den Shop an, dessen Einstellungen als Vorlage gespeichert werden sollen.
+
+---
+
+## 📥 Shop-Vorlage anwenden
+
+```text
+/company template apply <Name>
+```
+
+### Beispiel
+
+```text
+/company template apply Standard16
+```
+
+Nach dem Ausführen klickst du den gewünschten Zielshop an.
+
+Die gespeicherten Einstellungen der Vorlage werden anschließend auf den Shop übertragen.
+
+---
+
+# 📜 Aktivitätsprotokoll
+
+```text
+/company activity
+```
+
+Zeigt das Aktivitätsprotokoll des Unternehmens an.
+
+Seit CityShops 2.3.0 können dort unter anderem folgende Aktionen nachvollzogen werden:
+
+- Shop erstellt
+- Shop gelöscht
+- internen Shop-Namen geändert
+- Abteilung zugewiesen
+- Vorlage gespeichert
+- Vorlage angewendet
+- Mitarbeiterrolle geändert
+- Mitarbeiterrecht geändert
+
+Das Aktivitätsprotokoll enthält Informationen über **Ersteller, Zeitpunkt und Aktion**.
+
+Es kann außerdem im **Business OS** im Bereich **„Verwaltung“** eingesehen werden.
 
 ---
 
@@ -305,20 +547,40 @@ Die Auszahlung vom Firmenkonto ist dem **Firmenbesitzer** vorbehalten.
 | `/company claim` | Eigenen Shop der Firma zuweisen |
 | `/company deposit <Betrag>` | Geld auf das Firmenkonto einzahlen |
 | `/company withdraw <Betrag>` | Geld vom Firmenkonto auszahlen |
+| `/company shop internalname <Name>` | Internen Namen für einen Firmenshop festlegen |
+| `/company department create <Name>` | Neue Abteilung erstellen |
+| `/company department assign <Name>` | Shop einer Abteilung zuordnen |
+| `/company template save <Name>` | Einstellungen eines Shops als Vorlage speichern |
+| `/company template apply <Name>` | Gespeicherte Vorlage auf einen Shop anwenden |
+| `/company activity` | Aktivitätsprotokoll des Unternehmens anzeigen |
+| `/company role set <Spieler> <Rolle>` | Mitarbeiterrolle vergeben |
+| `/company permission set <Spieler> <Recht> true` | Mitarbeiterrecht vergeben |
+| `/company permission set <Spieler> <Recht> false` | Mitarbeiterrecht entziehen |
 
 ---
 
-# 👤 Spieler oder Firmenbesitzer?
+# 👤 Mitarbeiter oder Firmenbesitzer?
 
 Nicht jeder Unternehmensbefehl besitzt dieselben Rechte.
+
+Mit CityShops 2.3.0 können die Möglichkeiten eines Mitarbeiters zusätzlich durch seine **Rolle und individuellen Rechte** bestimmt werden.
+
+Der Firmenbesitzer besitzt automatisch sämtliche Rechte.
 
 | Funktion | Mitarbeiter | Firmenbesitzer |
 | --- | ---: | ---: |
 | Firmeninformationen ansehen | ✅ | ✅ |
 | Firma verlassen | ✅ | — |
-| Firmenkisten verwalten | ✅ | ✅ |
-| Gemeinsame Shops im Shop-PC sehen | ✅ | ✅ |
-| Mitarbeiter verwalten | ❌ | ✅ |
+| Firmenkisten verwenden | abhängig von Rechten | ✅ |
+| Gemeinsame Shops im Shop-PC sehen | abhängig von Rechten | ✅ |
+| Shops verwalten | abhängig von `shops` | ✅ |
+| Preise bearbeiten | abhängig von `prices` | ✅ |
+| Warenbestand verwalten | abhängig von `stock` | ✅ |
+| Shop-Vorlagen verwenden | abhängig von `templates` | ✅ |
+| Abteilungen verwalten | abhängig von `departments` | ✅ |
+| Firmenstatistiken ansehen | abhängig von `statistics` | ✅ |
+| Aktivitätsprotokoll ansehen | abhängig von `activity` | ✅ |
+| Mitarbeiter verwalten | abhängig von Rolle/Rechten | ✅ |
 | Unternehmen umbenennen | ❌ | ✅ |
 | Geld vom Firmenkonto auszahlen | ❌ | ✅ |
 
@@ -357,6 +619,8 @@ Viele Funktionen werden direkt über:
 gesteuert.
 
 Beispielsweise werden normale Shops über ihre Schilder erstellt und anschließend mit einem Rechtsklick registriert.
+
+Auch die neuen festen Shop-IDs werden automatisch von CityShops vergeben und benötigen keinen eigenen Befehl.
 
 ---
 
@@ -450,9 +714,19 @@ Diese Funktionen werden über die Schilder gesteuert und benötigen keinen eigen
 
 Viele erweiterte Unternehmensfunktionen werden direkt über den **Shop-PC und das Business OS** verwaltet.
 
-Dazu gehören beispielsweise Unternehmensübersichten, Shops, Mitarbeiter, Statistiken und weitere Geschäftsbereiche.
+Mit CityShops 2.3.0 wurde das Business OS um den Bereich **„Verwaltung“** erweitert.
 
-Dadurch muss nicht jede CityShops-Funktion über einen Chatbefehl bedient werden.
+Dort werden unter anderem angezeigt:
+
+- Abteilungen
+- feste Shop-IDs
+- interne Shop-Namen
+- Shop-Vorlagen
+- Mitarbeiteraktivitäten
+
+Lange Listen können dort mit dem **Mausrad gescrollt** werden.
+
+Dadurch muss nicht jede CityShops-Funktion ausschließlich über einen Chatbefehl bedient werden.
 
 ---
 
@@ -468,6 +742,9 @@ Falls ein Befehl nicht funktioniert, überprüfe:
 - Bist du Mitglied beziehungsweise Besitzer des richtigen Unternehmens?
 - Ist der angegebene Spieler bei `/company add` online?
 - Wurde der Befehl vollständig und korrekt eingegeben?
+- Wurde nach einem Befehl mit Shop-Auswahl das richtige Shopschild angeklickt?
+- Wurde der Rollenname korrekt geschrieben?
+- Wurde das Mitarbeiterrecht korrekt geschrieben?
 - Verwendet der Server die passende CityShops-Version?
 
 ---
@@ -508,6 +785,7 @@ Weitere Informationen findest du in den anderen Bereichen der CityShops-Wiki:
 - 💻 **Business OS**
 - 🔐 **Berechtigungen**
 - ❓ **Häufige Fragen**
+- 📋 **Versionen & Changelog**
 
 ---
 
