@@ -16,7 +16,7 @@ Ein umfangreiches Shop- und Wirtschaftssystem für Minecraft-Server.
 ### 🏠 [CityRegion](cityregion.md)
 Grundstücks- und Immobiliensystem zum Erstellen, Verkaufen und Vermieten von Regionen.
 
-### 💼 CityJobs
+### 💼 [CityJobs](cityjobs.md)
 Jobsystem für Minecraft-Server.
 
 ### 🚓 CityPolice
