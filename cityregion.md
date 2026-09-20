@@ -1,260 +1,153 @@
 <link rel="stylesheet" href="style.css">
 
+<img src="cityregion.png" alt="CityRegion" class="wiki-banner">
+
 # 🏠 CityRegion
 
-**CityRegion 2.1.0** ist ein umfangreiches Grundstücks- und Immobiliensystem für Minecraft-Server.
+**CityRegion** ist ein umfangreiches Grundstücks- und Immobiliensystem für Minecraft-Server.
 
-Mit CityRegion können Grundstücke erstellt, geschützt, gekauft, verkauft, vermietet, unterteilt und versteigert werden. Zusätzlich bietet die Mod Wohnungen, Mietverträge, Immobilienwerte, einen Immobilienmakler und das **Real Estate OS** zur Verwaltung von Immobilien.
-
----
-
-## 📦 Aktuelle Version
-
-**CityRegion 2.1.0**
-
-| | |
-|---|---|
-| Minecraft | 1.20.1 |
-| Modloader | Forge |
-| Forge-Version | 47.4.10 oder neuer innerhalb 1.20.1 |
-| MineBank | 1.0.2 oder neuer |
-| WorldEdit | Optional |
-| Installation | Client + Server |
-
-> **MineBank ist erforderlich.**  
-> Ohne MineBank startet CityRegion nicht.
-
-WorldEdit ist optional. CityRegion besitzt zusätzlich eine eigene Zwei-Punkte-Auswahl zum Erstellen von Regionen.
+Mit CityRegion können Grundstücke erstellt, geschützt, gekauft, verkauft, vermietet, unterteilt und versteigert werden. Gebäude, Wohnungen, Mitgliederrechte und Immobilien können über das Real Estate OS verwaltet werden.
 
 ---
 
-# 🏘️ Funktionen
+## 🆕 Aktuelle Version
 
-## 🗺️ Grundstücke & Regionen
+### CityRegion 2.1.0
 
-- Hauptregionen und Unterregionen
-- Eigene Zwei-Punkte-Auswahl
-- Optionale WorldEdit-Auswahl
-- Vertikales und horizontales Erweitern von Auswahlen
-- Verkleinern von Auswahlen
-- Grafische Regionsvorschau
-- Maximale Regionsgröße von 500.000 Blöcken
-- Schutz vor ungültigen Überschneidungen
-- Schutz von Blöcken, Behältern und Türen
-- Unterstützung mehrerer Dimensionen
+**Minecraft:** 1.20.1  
+**Modloader:** Forge  
+**Forge-Version:** 47.4.10 oder neuer innerhalb 1.20.1  
+**Abhängigkeit:** MineBank 1.0.2 oder neuer  
+**WorldEdit:** Optional  
+**Installation:** Client und Server
 
-## 💰 Kaufen & Verkaufen
+CityRegion **2.1.0** bietet ein umfangreiches System zur Verwaltung von Grundstücken und Immobilien.
 
-- Staatliche Grundstücke
-- Private Grundstücksverkäufe
-- Grundstücksschilder
-- Kaufbestätigung über den Chat
-- Zahlungen über MineBank
-- Staatliche Einnahmen über die Staatskasse
-- Grundstücke an den Staat zurückgeben
-- Wiederverkauf bestehender Immobilien
+Enthalten sind unter anderem:
 
-## 🔑 Vermietung
-
-- Zeitlich begrenzte Mietverträge
-- Frei wählbare Mietpreise
-- Mietdauer von 1 bis 365 Tagen
+- geschützte Haupt- und Unterregionen
+- eigene Zwei-Punkte-Regionsauswahl
+- optionale WorldEdit-Unterstützung
+- grafische Regionsvorschau
+- Grundstückskauf und -verkauf
+- staatliche und private Grundstücke
+- zeitlich begrenzte Vermietung
 - Mietkautionen
-- Automatische Mietverlängerung
-- Manuelle Verlängerung
-- Kündigung durch den Mieter
-- Beendigung durch Eigentümer oder Administrator
-- Automatische Wiederherstellung nach Mietende
-
-## 🏢 Gebäude & Wohnungen
-
-- Gebäude aus Hauptregionen
-- Wohnungen als Unterregionen
-- Mehrere Wohnungen innerhalb eines Gebäudes
-- Eigene Rechte pro Wohnung
-- Gemeinschaftsbereiche
-- Gebäudenamen
-- Separate Vermietung einzelner Wohnungen
-
-## 🏷️ Immobilienarten
-
-Administratoren können Immobilien verschiedenen Arten zuordnen:
-
-- Wohnen
-- Gewerbe
-- Industrie
-- Lager
-- Bauland
-- Gemeinschaftsfläche
-
-Zusätzlich stehen unter anderem Bauphasen, Gemeinschaftsbereiche und reine Mietobjekte zur Verfügung.
-
-## 📈 Immobilienwerte
-
-CityRegion kann Immobilienwerte und Marktinformationen verwalten.
-
-Dazu gehören unter anderem:
-
-- Grundstücksfläche
-- Lagefaktor
-- Gebäudewert
-- Richtwert
-- letzter Verkaufspreis
-- Markttrend
-- vergangene Verkäufe
-
-## 🔨 Auktionen
-
-Grundstücke können versteigert werden.
-
-- Startpreis festlegen
-- Laufzeit festlegen
-- Gebote abgeben
-- aktuelles Höchstgebot verwalten
-- Rückzahlung bei abgebrochenen Auktionen
-- automatische Eigentumsübertragung nach erfolgreicher Auktion
-
-## 👥 Mitglieder & Rechte
-
-Eigentümer können andere Spieler zu ihren Grundstücken hinzufügen.
-
-Rechte können getrennt vergeben werden für:
-
-- Bauen und Abbauen
-- Behälter verwenden
-- Türen, Falltüren und Tore verwenden
-
-## 🧑‍💼 Immobilienmakler
-
-CityRegion besitzt einen eigenen Immobilienmakler.
-
-Über den Makler können Spieler unter anderem:
-
-- freie Grundstücke finden
-- eigene Grundstücke anzeigen
-- gemietete Grundstücke anzeigen
-- Immobilien besichtigen
-- Grundstückslizenzen verwalten
-- das Abhollager öffnen
-- auf das Real Estate OS zugreifen
-
-## 💻 Real Estate OS
-
-Das **Real Estate OS** ist die zentrale Immobilienverwaltung von CityRegion.
-
-Es zeigt unter anderem:
-
-- verfügbare Immobilien
-- eigene Immobilien
-- gemietete Immobilien
-- Eigentümer und Mieter
-- Immobilienstatus
-- Immobilienwerte
-- Markttrends
-- vergangene Verkäufe
+- automatische Mietverlängerung
 - Gebäude und Wohnungen
-- Mietverträge
-- Mieteinnahmen
-- Auktionen
-- zugeordnete Firmen
+- Grundstücksauktionen
+- Mitglieder und getrennte Grundstücksrechte
+- Immobilienwerte und Marktinformationen
+- Immobilienmakler
+- Immobilien-PC
+- Real Estate OS
+- MineBank-Staatskasse
+- Grundstückslizenzen
+- automatische Wiederherstellung von Immobilien
+- Abhollager für gesicherte Gegenstände
 
-Das Real Estate OS kann außerdem über den eigenen **Immobilien-PC** geöffnet werden.
-
-## 📦 Rücksetzung & Abhollager
-
-CityRegion speichert beim Erstellen einer Region ihren Ursprungszustand.
-
-Nach dem Ende einer Miete oder bei der Rückgabe an den Staat kann dieser Zustand automatisch wiederhergestellt werden.
-
-Persönliche Gegenstände aus Behältern werden vorher gesichert und über das Abhollager zurückgegeben.
+> **MineBank wird benötigt.**  
+> Ohne MineBank startet CityRegion nicht.
+>
+> WorldEdit ist optional, da CityRegion eine eigene Zwei-Punkte-Auswahl besitzt.
 
 ---
 
-# 📚 Dokumentation
+## 📖 Dokumentation
 
-Die ausführliche CityRegion-Dokumentation wird auf mehrere Bereiche aufgeteilt.
+### 🚀 [Installation](cityregion-installation.md)
+Installation, Voraussetzungen und Aktualisierung von CityRegion.
 
-### 📥 Installation
-Installation von CityRegion, MineBank und optional WorldEdit.
-
-### 🗺️ Grundstücke erstellen & schützen
+### 🗺️ [Grundstücke erstellen & schützen](cityregion-grundstuecke.md)
 Regionen auswählen, erstellen, erweitern, verkleinern und schützen.
 
-### 💰 Grundstücke kaufen & verkaufen
-Staatliche und private Grundstückskäufe sowie Rückgabe an den Staat.
+### 💰 [Kaufen & Verkaufen](cityregion-kaufen-verkaufen.md)
+Staatliche und private Grundstückskäufe, Verkäufe und die Rückgabe an den Staat.
 
-### 🔑 Vermietung & Mietverträge
-Miete, Kaution, Verlängerung und Kündigung.
+### 🔑 [Vermietung & Mietverträge](cityregion-vermietung.md)
+Mietpreise, Mietdauer, Kautionen, Verlängerungen und Kündigungen.
 
-### 🏢 Gebäude & Wohnungen
-Gebäude, Unterregionen, Wohnungen und Gemeinschaftsbereiche.
+### 🏢 [Gebäude & Wohnungen](cityregion-gebaeude-wohnungen.md)
+Gebäude, Unterregionen, Wohnungen und Gemeinschaftsbereiche verwalten.
 
-### 📈 Immobilienwerte
-Immobilienarten, Lagefaktor, Gebäudewert und Marktinformationen.
+### 🏷️ [Immobilienarten & Immobilienwerte](cityregion-immobilienwerte.md)
+Immobilientypen, Lagefaktor, Gebäudewert und weitere Immobilieninformationen.
 
-### 🔨 Immobilienauktionen
-Grundstücke versteigern und Gebote abgeben.
+### 🔨 [Immobilienauktionen](cityregion-auktionen.md)
+Grundstücke versteigern, Gebote abgeben und Auktionen verwalten.
 
-### 👥 Mitglieder & Rechte
-Spieler hinzufügen und Grundstücksrechte verwalten.
+### 👥 [Mitglieder & Rechte](cityregion-mitglieder-rechte.md)
+Spieler hinzufügen und getrennte Bau-, Behälter- und Türrechte vergeben.
 
-### 🧑‍💼 Makler & Real Estate OS
-Immobiliensuche, Immobilien-PC, Makler und zentrale Immobilienverwaltung.
+### 🧑‍💼 [Makler & Real Estate OS](cityregion-real-estate-os.md)
+Immobiliensuche, Immobilienmakler, Immobilien-PC und zentrale Immobilienverwaltung.
 
-### 📦 Rücksetzung & Abhollager
-Ursprungszustand wiederherstellen und gesicherte Gegenstände abholen.
+### 📦 [Rücksetzung & Abhollager](cityregion-ruecksetzung.md)
+Ursprungszustände von Immobilien und die Sicherung persönlicher Gegenstände.
 
-### 🪧 Grundstücksschilder
+### 🪧 [Grundstücksschilder](cityregion-schilder.md)
 Verkaufs-, Miet- und Auktionsschilder erstellen und verwenden.
 
-### 🛠️ Adminfunktionen
-Regionen, Immobilientypen, Lagefaktoren und weitere Einstellungen verwalten.
+### 🛠️ [Adminfunktionen](cityregion-admin.md)
+Regionen, Eigentümer, Immobilientypen, Lagefaktoren und weitere Einstellungen verwalten.
 
-### ⌨️ Befehle
-Übersicht aller CityRegion-Befehle.
+### ⌨️ [Befehle](cityregion-befehle.md)
+Übersicht über die verfügbaren CityRegion-Befehle.
 
-### ❓ Häufige Fragen
-Lösungen für häufige Probleme und Fragen.
+### ❓ [Häufige Fragen](cityregion-haeufige-fragen.md)
+Antworten auf häufige Fragen und Lösungen für bekannte Probleme.
 
-### 📋 Versionen & Changelog
-Änderungen und neue Funktionen der einzelnen CityRegion-Versionen.
-
----
-
-# 🔗 Abhängigkeiten
-
-## MineBank
-
-CityRegion benötigt **MineBank 1.0.2 oder neuer**.
-
-MineBank übernimmt unter anderem die Zahlungen und die staatliche Finanzverwaltung von CityRegion.
-
-## WorldEdit
-
-WorldEdit ist **optional**.
-
-Ist WorldEdit installiert, kann eine vorhandene WorldEdit-Auswahl von CityRegion übernommen werden. Ohne WorldEdit kann die integrierte Zwei-Punkte-Auswahl verwendet werden.
+### 📋 [Versionen & Changelog](cityregion-versionen.md)
+Übersicht über CityRegion-Versionen, Änderungen und neue Funktionen.
 
 ---
 
-# 🔮 Weitere Entwicklung
+## ✅ Weiterhin enthalten
 
-CityRegion wird weiterentwickelt.
+CityRegion **2.1.0** enthält die bestehenden Grundstücks- und Immobiliensysteme:
 
-Geplant sind unter anderem Erweiterungen rund um:
-
-- Stadtteile, Straßen und Immobilienadressen
-- digitales Grundbuch
-- dynamischen Immobilienmarkt
-- Bauprojekte
-- erweiterte Gebäude- und Eigentumsmodelle
-- Kurzzeitvermietungen und Hotels
-- erweitertes Real Estate OS
-- Immobilienkarte
-- Benachrichtigungen
-- CityRegion API
-- optionale CityShops-Integration
+- Hauptregionen und Unterregionen
+- maximale Regionsgröße von 500.000 Blöcken
+- Regionsschutz
+- eigene Zwei-Punkte-Auswahl
+- WorldEdit-Unterstützung
+- vertikales und horizontales Erweitern von Auswahlen
+- Verkleinern von Auswahlen
+- grafische Regionsvorschau
+- staatliche Grundstücke
+- private Grundstücksverkäufe
+- Grundstücksvermietung
+- Mietkautionen
+- automatische Mietverlängerung
+- Wohnungen als Unterregionen
+- Gebäude und Gemeinschaftsbereiche
+- Grundstücksauktionen
+- Mitgliederverwaltung
+- getrennte Bau-, Behälter- und Türrechte
+- Immobilienarten
+- Lagefaktor und Gebäudewert
+- Immobilienwerte und Marktinformationen
+- Immobilienmakler
+- Immobilien-PC
+- Real Estate OS
+- Grundstückslizenzen
+- Besichtigungsteleport
+- MineBank-Staatskasse
+- Rückgabe von Grundstücken an den Staat
+- Wiederherstellung des Ursprungszustands
+- Abhollager für gesicherte Gegenstände
+- optionale Firmenzuordnung für Gewerbeimmobilien
 
 ---
 
-[← Zurück zur CityMods Wiki](index.md)
+## 🔮 Zukünftige Updates
+
+CityRegion wird auch nach Version **2.1.0** weiterentwickelt.
+
+Für zukünftige Versionen sind unter anderem weitere Erweiterungen rund um Immobilienverwaltung, Stadtteile, Adressen, das Real Estate OS und zusätzliche Verwaltungsfunktionen geplant.
+
+Weitere Funktionen und Anleitungen werden mit zukünftigen CityRegion-Versionen ergänzt.
+
+---
+
+[← Zurück zur CityMods Wiki](./)
