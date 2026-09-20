@@ -13,7 +13,7 @@ Hier findest du Anleitungen, Informationen und Hilfestellungen zu den verschiede
 ### 🛒 [CityShops](cityshops.md)
 Ein umfangreiches Shop- und Wirtschaftssystem für Minecraft-Server.
 
-### 🏠 CityRegion
+### 🏠 [CityRegion](cityregion.md)
 Grundstücks- und Immobiliensystem zum Erstellen, Verkaufen und Vermieten von Regionen.
 
 ### 💼 CityJobs
