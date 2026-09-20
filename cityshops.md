@@ -12,27 +12,34 @@ Mit CityShops können Spieler eigene Shops betreiben, Waren kaufen und verkaufen
 
 ## 🆕 Aktuelle Version
 
-### CityShops 2.3.0 – Verwaltungsupdate
+### CityShops 2.4.0 Beta 1 – Modern Shop Update
 
 **Minecraft:** 1.20.1  
 **Modloader:** Forge  
+**Status:** Beta  
 **Abhängigkeit:** MineBank 1.0.2 oder neuer  
 **Installation:** Client und Server
 
-Mit Version **2.3.0** wurde die Unternehmens- und Shopverwaltung von CityShops deutlich erweitert.
+Mit Version **2.4.0 Beta 1** wurde CityShops um moderne Ladenausstattung und neue Shopmöglichkeiten erweitert.
 
 Neu hinzugekommen sind unter anderem:
 
-- feste und eindeutige Shop-IDs
-- interne Shop-Namen
-- Abteilungen
-- Shop-Vorlagen
-- Mitarbeiterrollen
-- einzelne Mitarbeiterrechte
-- Aktivitätsprotokoll
-- neuer Bereich **„Verwaltung“** im Business OS
+- CityShops-Regale
+- zwei getrennte Regalbereiche mit eigenen Inventaren
+- sichtbare Waren direkt im Regal
+- elektronische Preisschilder
+- moderne Ankauf- und Verkaufsshops
+- CityShops-Verkaufstheke
+- eigener CityShops-Tab im Kreativinventar
+- Trichter-Unterstützung für Regale
+- angepasste Darstellung der neuen CityShops-Blöcke und Items
 
-Alle bisherigen CityShops-Funktionen bleiben weiterhin erhalten.
+Die neuen modernen Shops ersetzen die bisherigen ChestShops **nicht**.
+
+Klassische Shops mit Kiste und normalem Minecraft-Schild funktionieren weiterhin wie bisher.
+
+> ⚠️ **Beta-Hinweis:**  
+> CityShops 2.4.0 Beta 1 sollte vor dem Einsatz auf einem öffentlichen Server zunächst mit einer Sicherung oder Kopie der bestehenden Welt getestet werden.
 
 ---
 
@@ -42,7 +49,10 @@ Alle bisherigen CityShops-Funktionen bleiben weiterhin erhalten.
 Installation, Voraussetzungen und Aktualisierung von CityShops.
 
 ### 🛒 [Shop erstellen](cityshops-shop-erstellen.md)
-Anleitung zum Erstellen und Einrichten eines eigenen Shops.
+Anleitung zum Erstellen und Einrichten eines eigenen klassischen Shops.
+
+### 🛍️ [Moderne Shops](cityshops-moderne-shops.md)
+Alles über CityShops-Regale, elektronische Preisschilder, sichtbare Waren und die Verkaufstheke aus CityShops 2.4.0 Beta 1.
 
 ### 🏪 [Admin-Shops](cityshops-admin-shops.md)
 Erstellen und Verwalten von Admin-Verkaufs- und Ankaufsshops mit MineBank-Staatskasse.
@@ -78,9 +88,9 @@ Antworten auf häufige Fragen und Probleme.
 
 ## ✅ Weiterhin enthalten
 
-Auch mit CityShops **2.3.0** funktionieren die bisherigen Systeme weiterhin:
+Auch mit CityShops **2.4.0 Beta 1** funktionieren die bisherigen Systeme weiterhin:
 
-- Spieler-Ankauf und -Verkauf
+- klassische Spieler-Ankauf- und Verkaufsshops
 - Adminshops
 - MineBank-Firmenkonten
 - Staatskasse
@@ -90,12 +100,20 @@ Auch mit CityShops **2.3.0** funktionieren die bisherigen Systeme weiterhin:
 - Filialen
 - Bewertungen
 - Shop-PC und Business OS
+- feste Shop-IDs
+- interne Shop-Namen
+- Abteilungen
+- Shop-Vorlagen
+- Mitarbeiterrollen und Berechtigungen
+- Aktivitätsprotokoll
 - Marktübersicht und Statistiken
 - deutsche und englische Sprache
 
 ---
 
 ## 🔮 Zukünftige Updates
+
+Die neuen Funktionen aus **CityShops 2.4.0 Beta 1** werden während der Beta weiter getestet und bei Bedarf verbessert.
 
 Weitere Funktionen und Anleitungen werden mit zukünftigen CityShops-Versionen ergänzt.
 
