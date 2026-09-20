@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="style.css">
 
-<img src="cittyinstall.png" alt="CityRegion – Installation" class="wiki-banner">
+<img src="cityinstall.png" alt="CityRegion – Installation" class="wiki-banner">
 
 # 🚀 CityRegion installieren 
 
