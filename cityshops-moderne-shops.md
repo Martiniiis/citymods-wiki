@@ -2,7 +2,6 @@
 
 <img src="modern.png" alt="CityShops – Moderne Shops" class="wiki-banner">
 
-# 🛒 Moderne Shops
 
 # 🛒 Moderne Shops
 
