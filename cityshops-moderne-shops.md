@@ -1,5 +1,9 @@
 <link rel="stylesheet" href="style.css">
 
+<img src="modern.png" alt="CityShops – Moderne Shops" class="wiki-banner">
+
+# 🛒 Moderne Shops
+
 # 🛒 Moderne Shops
 
 > Neu mit **CityShops 2.4.0 Beta 1**
