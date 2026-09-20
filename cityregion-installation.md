@@ -1,5 +1,7 @@
 <link rel="stylesheet" href="style.css">
 
+<img src="cittyinstall.png" alt="CityRegion – Installation" class="wiki-banner">
+
 # 🚀 CityRegion installieren
 
 Diese Anleitung erklärt die Installation von **CityRegion 2.1.0** für Minecraft 1.20.1 mit Forge.
