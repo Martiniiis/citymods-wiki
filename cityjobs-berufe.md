@@ -64,94 +64,115 @@ Facharbeiter
 Bergarbeiter
 8.500 XP
 Experte
+```
 
 Jeder Beruf speichert seine Berufs-XP unabhängig von den anderen Berufen.
 
 Es wird jedoch immer nur der aktuell aktive Beruf durch normale Arbeit und dessen Aufträge weiterentwickelt.
 
-⛏️ Bergarbeiter
+---
+
+# ⛏️ Bergarbeiter
 
 Der Bergarbeiter konzentriert sich auf natürliche Erze und Bergbau-Rohstoffe.
 
 Berufs-XP gibt es nur für gültige Blöcke.
 
-⛏️ Bergarbeiter-XP
-Rohstoff	Berufs-XP
-Kohleerz	1
-Kupfererz	2
-Eisenerz	5
-Redstone-Erz	5
-Lapislazuli-Erz	6
-Golderz	8
-Diamanterz	20
-Smaragderz	25
-Netherquarzerz	2
-Nethergolderz	3
-Antiker Schrott	30
-anderes korrekt getaggtes Mod-Erz	5
-📦 Bergarbeiter-Aufträge
+## ⛏️ Bergarbeiter-XP
+
+| Rohstoff | Berufs-XP |
+|---|---:|
+| Kohleerz | 1 |
+| Kupfererz | 2 |
+| Eisenerz | 5 |
+| Redstone-Erz | 5 |
+| Lapislazuli-Erz | 6 |
+| Golderz | 8 |
+| Diamanterz | 20 |
+| Smaragderz | 25 |
+| Netherquarzerz | 2 |
+| Nethergolderz | 3 |
+| Antiker Schrott | 30 |
+| anderes korrekt getaggtes Mod-Erz | 5 |
+
+---
+
+## 📦 Bergarbeiter-Aufträge
 
 Mögliche Auftragswaren sind unter anderem:
 
-Kohle
-Rohkupfer
-Roheisen
-Rohgold
-Redstone
-Lapislazuli
-Diamanten
-Smaragde
+- Kohle
+- Rohkupfer
+- Roheisen
+- Rohgold
+- Redstone
+- Lapislazuli
+- Diamanten
+- Smaragde
 
 Bei Stadtbauprojekten können zusätzlich Materialien wie:
 
-Bruchstein
-Sand
-Kies
-Quarz
+- Bruchstein
+- Sand
+- Kies
+- Quarz
 
 benötigt werden.
 
 Dadurch spielt der Bergarbeiter auch bei großen gemeinschaftlichen Stadtbauprojekten eine wichtige Rolle.
 
-🪨 Normale Steine
+---
+
+## 🪨 Normale Steine
 
 Normale Steine werden teilweise für den Anti-Farm-Schutz mitverfolgt.
 
-Sie geben jedoch durch die aktuelle Bergarbeiter-XP-Tabelle keine Berufs-XP.
+Sie geben jedoch durch die aktuelle Bergarbeiter-XP-Tabelle **keine Berufs-XP**.
 
-🪓 Holzfäller
+---
+
+# 🪓 Holzfäller
 
 Der Holzfäller ist für natürlich gewachsene Bäume und Holz zuständig.
 
 XP gibt es für natürlich gewachsene Stämme, die vom System als gültiges Holz erkannt werden.
 
-🪵 Holzfäller-XP
-Holzart	Berufs-XP
-Eiche	2
-Birke	3
-Fichte	2
-Akazie	4
-Schwarzeiche	2
-Tropenholz	2
-Mangrove	5
-Kirschholz	4
-anderes korrekt getaggtes Mod-Holz	4
-📦 Holzfäller-Aufträge
+---
+
+## 🪵 Holzfäller-XP
+
+| Holzart | Berufs-XP |
+|---|---:|
+| Eiche | 2 |
+| Birke | 3 |
+| Fichte | 2 |
+| Akazie | 4 |
+| Schwarzeiche | 2 |
+| Tropenholz | 2 |
+| Mangrove | 5 |
+| Kirschholz | 4 |
+| anderes korrekt getaggtes Mod-Holz | 4 |
+
+---
+
+## 📦 Holzfäller-Aufträge
 
 Mögliche Auftragswaren sind:
 
-Eichenstämme
-Birkenstämme
-Fichtenstämme
-Tropenholzstämme
-Akazienstämme
-Schwarzeichenstämme
-Mangrovenstämme
-Kirschstämme
+- Eichenstämme
+- Birkenstämme
+- Fichtenstämme
+- Tropenholzstämme
+- Akazienstämme
+- Schwarzeichenstämme
+- Mangrovenstämme
+- Kirschstämme
 
 Holz wird außerdem für verschiedene städtische Bauprojekte benötigt.
 
-🌾 Landwirt
+---
+
+# 🌾 Landwirt
 
 Der Landwirt kümmert sich um Pflanzen und landwirtschaftliche Erzeugnisse.
 
@@ -159,69 +180,75 @@ Bei vielen Pflanzen gibt es Berufs-XP nur dann, wenn sie vollständig reif sind.
 
 Dadurch wird verhindert, dass unreife Pflanzen ständig abgebaut und erneut gesetzt werden, um schnell XP zu sammeln.
 
-🌱 Landwirt-XP
-Pflanze / Erzeugnis	Bedingung	Berufs-XP
-Weizen	vollständig reif	2
-Kartoffeln	vollständig reif	3
-Karotten	vollständig reif	3
-Rote Bete	vollständig reif	3
-Kakao	vollständig reif	4
-Netherwarzen	vollständig reif	5
-Süßbeeren	vollständig reif	2
-Leuchtbeeren	Beeren vorhanden	2
-Kürbis	gültiger natürlicher Block	4
-Melone	gültiger natürlicher Block	4
-Zuckerrohr	gültiger natürlicher Block	1
-Kaktus	gültiger natürlicher Block	1
-Bambus	gültiger natürlicher Block	1
-Seetang	gültiger natürlicher Block	1
-Pilze und Pilzblöcke	gültiger natürlicher Block	2
-Chorus-Pflanze	gültiger natürlicher Block	4
-📦 Landwirt-Aufträge
+---
+
+## 🌱 Landwirt-XP
+
+| Pflanze / Erzeugnis | Bedingung | Berufs-XP |
+|---|---|---:|
+| Weizen | vollständig reif | 2 |
+| Kartoffeln | vollständig reif | 3 |
+| Karotten | vollständig reif | 3 |
+| Rote Bete | vollständig reif | 3 |
+| Kakao | vollständig reif | 4 |
+| Netherwarzen | vollständig reif | 5 |
+| Süßbeeren | vollständig reif | 2 |
+| Leuchtbeeren | Beeren vorhanden | 2 |
+| Kürbis | gültiger natürlicher Block | 4 |
+| Melone | gültiger natürlicher Block | 4 |
+| Zuckerrohr | gültiger natürlicher Block | 1 |
+| Kaktus | gültiger natürlicher Block | 1 |
+| Bambus | gültiger natürlicher Block | 1 |
+| Seetang | gültiger natürlicher Block | 1 |
+| Pilze und Pilzblöcke | gültiger natürlicher Block | 2 |
+| Chorus-Pflanze | gültiger natürlicher Block | 4 |
+
+---
+
+## 📦 Landwirt-Aufträge
 
 Mögliche Auftragswaren sind unter anderem:
 
-Weizen
-Karotten
-Kartoffeln
-Rote Bete
-Melonenscheiben
-Kürbisse
-Süßbeeren
-Leuchtbeeren
-getrockneter Seetang
-Pilze
-Kakaobohnen
-Netherwarzen
-Chorusfrüchte
-Zuckerrohr
-Bambus
-Kakteen
-🛡️ Anti-Farm-Schutz
+- Weizen
+- Karotten
+- Kartoffeln
+- Rote Bete
+- Melonenscheiben
+- Kürbisse
+- Süßbeeren
+- Leuchtbeeren
+- getrockneter Seetang
+- Pilze
+- Kakaobohnen
+- Netherwarzen
+- Chorusfrüchte
+- Zuckerrohr
+- Bambus
+- Kakteen
+
+---
+
+# 🛡️ Anti-Farm-Schutz
 
 CityJobs besitzt einen Anti-Farm-Schutz.
 
 Selbst gesetzte Blöcke können nicht einfach immer wieder abgebaut werden, um unbegrenzt Berufs-XP zu erhalten.
 
-Das System merkt sich entsprechende Blockpositionen.
-
-Dabei werden auch:
-
-Dimension
-Blockposition
-gesetzte Blöcke
-
-berücksichtigt.
+Das System merkt sich entsprechende Blockpositionen einschließlich der Dimension.
 
 Diese Informationen bleiben auch nach einem Serverneustart erhalten.
 
-🌳 Natürlich gewachsene Bäume
+---
+
+## 🌳 Natürlich gewachsene Bäume
 
 Natürlich gewachsene Baumstämme können vom Holzfäller regulär für Berufs-XP verwendet werden.
 
 Dadurch können normale Wälder und nachgewachsene Bäume weiterhin für den Beruf genutzt werden.
 
-🌾 Reife Pflanzen
+---
+
+## 🌾 Reife Pflanzen
 
 Bei Pflanzen wie Weizen, Kartoffeln, Karotten oder Roter Bete zählt nur eine ausreichend reife Pflanze.
 
@@ -229,55 +256,66 @@ Unreife Pflanzen geben keine Berufs-XP.
 
 Direkt platzierbare Farmblöcke werden zusätzlich gegen einfaches Wiederaufstellen und erneutes Abernten geschützt.
 
-🚫 Kreativ- und Zuschauermodus
+---
 
-Spieler im Kreativmodus oder Zuschauermodus erhalten keine normalen Arbeits-XP.
+# 🚫 Kreativ- und Zuschauermodus
+
+Spieler im **Kreativmodus** oder **Zuschauermodus** erhalten keine normalen Arbeits-XP.
 
 Dadurch kann der Berufsfortschritt nicht einfach über den Kreativmodus hochgelevelt werden.
 
-⭐ Berufs-XP und Ränge
+---
+
+# ⭐ Berufs-XP und Ränge
 
 Alle drei Berufe verwenden dasselbe grundlegende Rangsystem:
 
-Stufe	Rang	Benötigte Gesamt-XP
-1	Lehrling	0
-2	Geselle	500
-3	Facharbeiter	2.000
-4	Experte	6.000
-5	Meister	15.000
+| Stufe | Rang | Benötigte Gesamt-XP |
+|---:|---|---:|
+| 1 | Lehrling | 0 |
+| 2 | Geselle | 500 |
+| 3 | Facharbeiter | 2.000 |
+| 4 | Experte | 6.000 |
+| 5 | Meister | 15.000 |
 
 Der Fortschritt wird für jeden Beruf getrennt gespeichert.
 
 Mehr über das komplette XP- und Rangsystem findest du auf der nächsten Seite:
 
-Ränge & Berufs-XP
+**[Ränge & Berufs-XP](cityjobs-raenge-xp.md)**
 
-📦 Berufe und Aufträge
+---
+
+# 📦 Berufe und Aufträge
 
 Jeder Beruf besitzt eigene passende Aufträge.
 
-Du kannst nur Aufträge des aktuell aktiven Berufs bearbeiten.
+Du kannst nur Aufträge des **aktuell aktiven Berufs** bearbeiten.
 
 Mit höheren Rängen können sich unter anderem verändern:
 
-verfügbare Waren
-Auftragsmengen
-Berufs-XP
-Stückpreise
-Großaufträge
-Meisteraufträge
+- verfügbare Waren
+- Auftragsmengen
+- Berufs-XP
+- Stückpreise
+- Großaufträge
+- Meisteraufträge
 
 Die eigentliche Auftragsverwaltung erfolgt über den passenden Berufs-NPC.
 
-🤝 Berufe und Gemeinschaftsprojekte
+---
+
+# 🤝 Berufe und Gemeinschaftsprojekte
 
 Gemeinschaftsprojekte verbinden die verschiedenen Berufe miteinander.
 
 Ein Projekt kann beispielsweise gleichzeitig Rohstoffe von:
 
+```text
 ⛏️ Bergarbeitern
 🪓 Holzfällern
 🌾 Landwirten
+```
 
 benötigen.
 
@@ -285,7 +323,9 @@ Jeder Spieler darf nur zu dem Bereich beitragen, der zu seinem aktuell aktiven B
 
 So arbeiten unterschiedliche Berufe gemeinsam an einem serverweiten Ziel.
 
-🏗️ Berufe und Stadtbauprojekte
+---
+
+# 🏗️ Berufe und Stadtbauprojekte
 
 Auch bei großen Stadtbauprojekten spielen die Berufe eine wichtige Rolle.
 
@@ -297,56 +337,63 @@ Ein eigener Bauarbeiter-Beruf wird dafür nicht benötigt.
 
 Die vorhandenen Berufe versorgen die Stadt mit den benötigten Rohstoffen.
 
-📖 Berufsbuch
+---
+
+# 📖 Berufsbuch
 
 Mit
 
-/cityjobs
+`/cityjobs`
 
 kannst du dein Berufsbuch öffnen.
 
 Dort findest du unter anderem Informationen zu:
 
-deinen Lieferungen
-abgeschlossenen Aufträgen
-verdientem Geld
-Erfolgen
-Profiltiteln
-aktuellen Stadtbauprojekten
+- deinen Lieferungen
+- abgeschlossenen Aufträgen
+- verdientem Geld
+- Erfolgen
+- Profiltiteln
+- aktuellen Stadtbauprojekten
 
 Das Berufsbuch kann außerdem über den passenden Berufs-NPC erreicht werden.
 
-💡 Welcher Beruf passt zu mir?
-⛏️ Bergarbeiter
+---
+
+# 💡 Welcher Beruf passt zu mir?
+
+### ⛏️ Bergarbeiter
 
 Wenn du gerne:
 
-Höhlen erkundest
-Erze sammelst
-seltene Rohstoffe suchst
+- Höhlen erkundest
+- Erze sammelst
+- seltene Rohstoffe suchst
 
 ist der Bergarbeiter passend.
 
-🪓 Holzfäller
+### 🪓 Holzfäller
 
 Wenn du gerne:
 
-Wälder erkundest
-Bäume fällst
-große Mengen Holz sammelst
+- Wälder erkundest
+- Bäume fällst
+- große Mengen Holz sammelst
 
 ist der Holzfäller passend.
 
-🌾 Landwirt
+### 🌾 Landwirt
 
 Wenn du gerne:
 
-Felder bewirtschaftest
-Pflanzen anbaust
-verschiedene Erzeugnisse sammelst
+- Felder bewirtschaftest
+- Pflanzen anbaust
+- verschiedene Erzeugnisse sammelst
 
 ist der Landwirt passend.
 
 Du kannst deinen Beruf später wieder wechseln, ohne den bereits erreichten Fortschritt der anderen Berufe zu verlieren.
 
-← Zurück: Installation | Weiter: NPCs & Berufsberater →
+---
+
+[← Zurück: Installation](cityjobs-installation.md) | [Weiter: NPCs & Berufsberater →](cityjobs-npcs.md)
